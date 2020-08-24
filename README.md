@@ -1,6 +1,8 @@
 # Getting Started
 
-These steps will get this sample application running for you using DigitalOcean.
+These steps will get this sample Laravel API running for you using DigitalOcean.
+
+![](https://i.imgur.com/JBsQfSG.png)
 
 **Note: Following these steps will result in charges for the use of DigitalOcean services**
 

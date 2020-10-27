@@ -1,0 +1,24 @@
+spec:
+  name: sample-laravel-api
+  services:
+  - build_command: |-
+      php artisan migrate --force
+      php artisan db:seed --force
+    environment_slug: php
+    envs:
+    - key: DB_CONNECTION
+      scope: RUN_TIME
+      value: sqlite
+    - key: APP_ENV
+      scope: RUN_TIME
+      value: development
+    - key: APP_URL
+      scope: RUN_TIME
+      value: ${APP_URL}
+    - key: APP_DEBUG
+      scope: RUN_TIME
+      value: "true"
+    git:
+      branch: main
+      repo_clone_url: https://github.com/digitalocean/sample-laravel-api.git
+    name: sample-laravel-api

@@ -26,6 +26,12 @@ After forking the repo, you should now be viewing this README in your own github
 
 ## Deploying the App
 
+[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/digitalocean/sample-laravel-api/tree/master)
+
+You can use the Deploy to DigitalOcean button to deploy this repo directly to App Platform.
+
+## Deploying the App Manually
+
 1. Visit https://cloud.digitalocean.com/apps (if you're not logged in, you may see an error message. Visit https://cloud.digitalocean.com/login directly and authenticate, then try again)
 1. Click "Launch App" or "Create App"
 1. Choose GitHub and authenticate with your GitHub credentials.

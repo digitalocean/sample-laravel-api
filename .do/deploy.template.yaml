@@ -4,6 +4,8 @@ spec:
   - build_command: |-
       php artisan migrate --force
       php artisan db:seed --force
+    run_command: |-
+      composer install
     environment_slug: php
     envs:
     - key: APP_ENV

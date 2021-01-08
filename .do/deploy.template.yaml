@@ -4,8 +4,9 @@ spec:
   - build_command: |-
       php artisan migrate --force
       php artisan db:seed --force
-    run_command: |-
       composer install
+    run_command: |-
+      heroku-php-apache2 public/
     environment_slug: php
     envs:
     - key: APP_ENV

@@ -1,3 +1,6 @@
+> ⚠️ **This repository is archived and no longer maintained.**  
+> Please use the actively maintained version here: [digitalocean/sample-laravel](https://github.com/digitalocean/sample-laravel)
+
 # Getting Started
 
 These steps will get this sample Laravel API running for you using DigitalOcean.
